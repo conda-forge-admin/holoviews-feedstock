@@ -1,4 +1,4 @@
-{% set version = "1.22.1" %}
+{% set version = "1.23.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/holoviews/holoviews-{{ version }}.tar.gz
-  sha256: 7dde3a10bb77aff0982e21786b4f5249c6a9d70c463f5604a49fcf30c0247756
+  sha256: aba47038d488f510f6a99f0186649ffaab7f290a995cee8afcc768d84f729583
 
 build:
   number: 0
